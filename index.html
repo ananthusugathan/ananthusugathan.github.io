@@ -741,13 +741,28 @@
 
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
-                <div class="col-md-6 form-group">
+                <!-- <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
                   <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div> -->
+                <blockquote class="blockquote text-left">
+                  <p><small>Scan the QR or Use the button to write me.</small></p>
+                </blockquote>
+                <div class="row justify-content-md-center">
+                  <div class="col col-lg-4">
+                    <img src="assets/img/qr-code.jpg" class="img-fluid">
+                    
+                  </div>
+                  <div class="col align-self-center">
+                    <button type="submit"><a href="https://forms.gle/sDa5KWH9YtWY3LRF9" style="color:#ffffff;">Get In Touch</a></button>
+                  </div>
                 </div>
+
               </div>
+            
+<!-- 
               <div class="form-group mt-3">
                 <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
               </div>
@@ -758,8 +773,8 @@
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              </div> -->
+              
             </form>
 
           </div>
